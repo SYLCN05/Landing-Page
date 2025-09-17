@@ -78,3 +78,21 @@ ul{
     height: 40px;
     border-radius: 8px;
 }
+/*info*/
+.info{
+    display: flex;
+    justify-content: center;
+    padding:50px;
+    gap: 150px;
+}
+.box{
+    width: 200px;
+    flex-wrap: wrap;
+}
+
+#information{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
