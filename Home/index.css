@@ -82,15 +82,24 @@ ul{
 .info{
     display: flex;
     justify-content: center;
+    align-items: center;
     padding:50px;
     gap: 150px;
 }
 .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 200px;
     flex-wrap: wrap;
+    text-align: center;
 }
-
+.box img{
+    border-radius: 10px;
+    border: 5px solid #3882F6
+}
 #information{
+    padding-top: 20px;
     text-align: center;
     font-size: 36px;
     color: #1F2937;
